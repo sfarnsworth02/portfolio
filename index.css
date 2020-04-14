@@ -1,0 +1,83 @@
+html, 
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #F7F8F8;
+    color: #7D7E75;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+
+/* ---------------- HEADER ---------------- */
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+/* ---- Logo Box ---- */
+
+.logo-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 150px;
+    padding: 3vh;
+    max-width: 500px;
+}
+
+.logo-content {
+    width: 50px;
+}
+
+.line-1 {
+    border: 7px solid #F2C45A;
+    margin: 5px 0px;
+}
+
+.line-2 {
+    border: 2px solid #F2C45A;
+    margin: 5px 0px;
+}
+
+.initials {
+    font-family: 'Poiret One', cursive;
+    color: #F2C45A; 
+    font-size: 50px;
+    max-width: 500px; 
+    margin: 0px;
+    font-weight: 500;
+}
+
+/* ---- Intro Box ---- */
+
+.intro-box p {
+    font-family: 'Poiret One', cursive;
+    font-size: 30px;
+    font-weight: 600;
+    padding:10px;
+}
+
+
+
+.intro-box span {
+    font-family: 'Sofia', cursive;
+    color: #F2C45A; 
+    font-size: 5vh;
+    display: flex;
+    justify-content: center;
+}
+
+
+/* ---------------- MAIN ---------------- */
+ 
+.header-divide {
+    border-style: none none dotted none;
+    border: 0px 0px 7px;
+    border-width: 7px;
+    width: 100px;
+}
