@@ -31,7 +31,7 @@ header {
 }
 
 .logo-content {
-    width: 50px;
+    width: 65px;
 }
 
 .line-1 {
@@ -47,22 +47,38 @@ header {
 .initials {
     font-family: 'Poiret One', cursive;
     color: #F2C45A; 
-    font-size: 50px;
+    font-size: 75px;
     max-width: 500px; 
     margin: 0px;
     font-weight: 500;
+}
+
+/* ---- Nav ---- */
+nav {
+    display: flex;
+    font: 40px 'Poiret One',cursive;
+}
+
+nav ul {
+    list-style-type: none;
+    display:flex;
+    flex-direction: row;
+    margin-top: 75px;
+    
+}
+
+li {
+    padding: 0px 15px;
 }
 
 /* ---- Intro Box ---- */
 
 .intro-box p {
     font-family: 'Poiret One', cursive;
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 600;
     padding:10px;
 }
-
-
 
 .intro-box span {
     font-family: 'Sofia', cursive;
@@ -72,12 +88,29 @@ header {
     justify-content: center;
 }
 
+.intro-content {
+    display: flex;
+    text-align: center;
+}
 
 /* ---------------- MAIN ---------------- */
  
+main {
+    display: flex;
+    flex-direction: column;
+    
+}
+
 .header-divide {
     border-style: none none dotted none;
     border: 0px 0px 7px;
     border-width: 7px;
     width: 100px;
+}
+
+aside,
+.skills {
+    background-color: #f9e2af;
+    padding: 10vh 10vh;
+    justify-content: center;
 }
